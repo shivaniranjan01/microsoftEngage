@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+
+  
+       <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+      </style>
+    
+        
+    <link rel="stylesheet" href="landingstyle.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fab fa-windows" style="padding-right: 0.5em;"></i>Streamify</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+        
+        </div>
+      </nav>
+
+    <div class = "main">
+        <div class = "left">
+            <img src="https://thumbs.dreamstime.com/b/online-conference-meeting-remote-workers-work-home-team-call-vector-illustration-178682754.jpg" alt="" width="500" height="375">
+ 
+        </div>
+
+        <div class = "right">
+                  
+
+            <h1 class = "welcome-heading" style="font-size: 45px; font-family: 'Poppins', sans-serif; padding-bottom: 0.4em;"><b>Welcome to Streamify</b></h1>
+
+            <h4 class = "intro-content">A place for you to connect with your peers <br> Make video communications frictionless and secure, empowering people to accomplish more</h4>
+            
+            <hr style = "background-color: rgb(14, 13, 13); width: 100%;">
+
+            <div onclick="redirect()", class = "redirect_btn">Start meeting</div>
+            </div>
+        
+    </div>
+
+
+    <script>
+    const redirect=()=>
+    {
+        location.replace('/meeting')
+    }
+
+ 
+    </script>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
