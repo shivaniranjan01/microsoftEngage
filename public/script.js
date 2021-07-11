@@ -2,9 +2,9 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  // path: '/peerjs',
-  // host: '/',
-  // port: '443'
+  path: '/peerjs',
+  host: '/',
+  port: '443'
 })
 let myVideoStream;
 const myVideo = document.createElement('video')
@@ -144,7 +144,7 @@ const leave_meet = ()=>{
           mr[0].style.display = "none";
           mr[0].style.transition = "display 0.3s";
           ml[0].style.transition = "flex 0.3s";
-          document.getElementById('chat_icon').style.color = "#d73b3e";
+          
           
         }
         else{
@@ -153,7 +153,7 @@ const leave_meet = ()=>{
           mr[0].style.display = "flex";
           mr[0].style.transition = "display 0.3s";
           ml[0].style.transition = "flex 0.3s";
-          document.getElementById('chat_icon').style.color = "white";
+          
           
         }
         showChat = !showChat;
