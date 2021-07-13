@@ -18,11 +18,12 @@ body{
 
 .main__videos {
     flex-grow: 1;
-    background-color: black;
+    background-color: #37383a;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
+    overflow-y: auto;
 }
 
 .main__controls {
